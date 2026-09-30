@@ -1,0 +1,82 @@
+{
+    "validation_results": {
+        "Logistic_Regression": {
+            "Accuracy": 0.7773,
+            "Precision": 0.3833,
+            "Recall": 0.6571,
+            "F1_Score": 0.4842,
+            "ROC_AUC": 0.8048,
+            "Confusion_Matrix": [
+                [
+                    148,
+                    37
+                ],
+                [
+                    12,
+                    23
+                ]
+            ]
+        },
+        "Decision_Tree": {
+            "Accuracy": 0.6818,
+            "Precision": 0.284,
+            "Recall": 0.6571,
+            "F1_Score": 0.3966,
+            "ROC_AUC": 0.6952,
+            "Confusion_Matrix": [
+                [
+                    127,
+                    58
+                ],
+                [
+                    12,
+                    23
+                ]
+            ]
+        },
+        "Random_Forest": {
+            "Accuracy": 0.8318,
+            "Precision": 0.4783,
+            "Recall": 0.6286,
+            "F1_Score": 0.5432,
+            "ROC_AUC": 0.7243,
+            "Confusion_Matrix": [
+                [
+                    161,
+                    24
+                ],
+                [
+                    13,
+                    22
+                ]
+            ]
+        }
+    },
+    "cv_results": {
+        "Logistic_Regression": {
+            "CV_Mean_Accuracy": 0.7658,
+            "CV_Mean_Precision": 0.3853,
+            "CV_Mean_Recall": 0.7649,
+            "CV_Mean_F1": 0.5114,
+            "CV_Mean_ROC_AUC": 0.8313,
+            "CV_Std_F1": 0.0382
+        },
+        "Decision_Tree": {
+            "CV_Mean_Accuracy": 0.7133,
+            "CV_Mean_Precision": 0.293,
+            "CV_Mean_Recall": 0.5476,
+            "CV_Mean_F1": 0.3807,
+            "CV_Mean_ROC_AUC": 0.683,
+            "CV_Std_F1": 0.0211
+        },
+        "Random_Forest": {
+            "CV_Mean_Accuracy": 0.8552,
+            "CV_Mean_Precision": 0.5558,
+            "CV_Mean_Recall": 0.5417,
+            "CV_Mean_F1": 0.5477,
+            "CV_Mean_ROC_AUC": 0.8041,
+            "CV_Std_F1": 0.0645
+        }
+    },
+    "champion_model": "Logistic_Regression"
+}
